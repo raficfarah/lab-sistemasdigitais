@@ -1,0 +1,77 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Aluno\Desktop\Hermes\PA2\lukyrafic\aula8\Tudo\RegW\simulation\modelsim
+Eregw
+Z1 w1747759305
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Aluno\Desktop\Hermes\PA2\lukyrafic\aula8\Tudo\RegW\simulation\modelsim
+Z5 8C:/Users/Aluno/Desktop/Hermes/PA2/lukyrafic/aula8/Tudo/RegW/RegW.vhd
+Z6 FC:/Users/Aluno/Desktop/Hermes/PA2/lukyrafic/aula8/Tudo/RegW/RegW.vhd
+l0
+L4
+VZ_ABZ1[zn^Z77;[e;b<[R3
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1747759520.335000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aluno/Desktop/Hermes/PA2/lukyrafic/aula8/Tudo/RegW/RegW.vhd|
+Z10 !s107 C:/Users/Aluno/Desktop/Hermes/PA2/lukyrafic/aula8/Tudo/RegW/RegW.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 egmjAh<f6RmYnMYY@3fUI0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 4 regw 0 22 Z_ABZ1[zn^Z77;[e;b<[R3
+l20
+L19
+Vc3eZ>dzdL^z@5Z:h5;1n@0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 75aUIh_23W0VnWS`gAD3z0
+!i10b 1
+Etb_regw
+Z13 w1744918622
+Z14 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z15 8C:/Users/Aluno/Desktop/Hermes/PA2/lukyrafic/aula8/Tudo/RegW/tb_RegW.vhd
+Z16 FC:/Users/Aluno/Desktop/Hermes/PA2/lukyrafic/aula8/Tudo/RegW/tb_RegW.vhd
+l0
+L5
+VEENz?M0TmfeN=l@F`S@Po0
+!s100 1[LzAGKz;8]Xn?EiZ[RRU2
+R7
+31
+!i10b 1
+Z17 !s108 1747759520.597000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aluno/Desktop/Hermes/PA2/lukyrafic/aula8/Tudo/RegW/tb_RegW.vhd|
+Z19 !s107 C:/Users/Aluno/Desktop/Hermes/PA2/lukyrafic/aula8/Tudo/RegW/tb_RegW.vhd|
+R11
+R12
+Ateste
+R14
+R2
+R3
+DEx4 work 7 tb_regw 0 22 EENz?M0TmfeN=l@F`S@Po0
+l27
+L8
+V^=<@8U5Je<3ZobeMzMkQ@3
+!s100 f:?:4T<UK:dSXJkN?IKd82
+R7
+31
+!i10b 1
+R17
+R18
+R19
+R11
+R12

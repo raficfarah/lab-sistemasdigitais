@@ -1,0 +1,13 @@
+To,Location
+entrada[0],PIN_N25
+entrada[1],PIN_N26
+entrada[2],PIN_P25
+entrada[3],PIN_AE14
+
+saida[0],PIN_AF10
+saida[1],PIN_AB12
+saida[2],PIN_AC12
+saida[3],PIN_AD11
+saida[4],PIN_AE11
+saida[5],PIN_V14
+saida[6],PIN_V13    

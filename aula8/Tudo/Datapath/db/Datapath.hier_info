@@ -1,0 +1,54 @@
+|Datapath
+E[0] => ~NO_FANOUT~
+E[1] => ~NO_FANOUT~
+E[2] => ~NO_FANOUT~
+E[3] => ~NO_FANOUT~
+CLK => ~NO_FANOUT~
+LoadE => ~NO_FANOUT~
+ResetMA => ~NO_FANOUT~
+S => RegW:Reg_SD.D[1]
+D => RegW:Reg_SD.D[0]
+A => ~NO_FANOUT~
+Sobe <= RegW:Reg_SD.Q[1]
+Desce <= RegW:Reg_SD.Q[0]
+Maior <= Maior.DB_MAX_OUTPUT_PORT_TYPE
+Menor <= Menor.DB_MAX_OUTPUT_PORT_TYPE
+Media[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Media[1] <= Media[1].DB_MAX_OUTPUT_PORT_TYPE
+Media[2] <= Media[2].DB_MAX_OUTPUT_PORT_TYPE
+Media[3] <= Media[3].DB_MAX_OUTPUT_PORT_TYPE
+Media[4] <= Media[4].DB_MAX_OUTPUT_PORT_TYPE
+Media[5] <= Media[5].DB_MAX_OUTPUT_PORT_TYPE
+Media[6] <= Media[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Datapath|RegW:RegE
+CLK => Q[0]~reg0.CLK
+CLK => Q[1]~reg0.CLK
+CLK => Q[2]~reg0.CLK
+CLK => Q[3]~reg0.CLK
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LOAD => Q[0]~reg0.ENA
+LOAD => Q[1]~reg0.ENA
+LOAD => Q[2]~reg0.ENA
+LOAD => Q[3]~reg0.ENA
+
+
+|Datapath|RegW:Reg_SD
+CLK => Q[0]~reg0.CLK
+CLK => Q[1]~reg0.CLK
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LOAD => Q[0]~reg0.ENA
+LOAD => Q[1]~reg0.ENA
+
+
