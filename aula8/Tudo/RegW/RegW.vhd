@@ -10,7 +10,7 @@ entity RegW is
 	port(
 		CLK	: in std_logic;
 	   D		: in std_logic_vector((W-1) downto 0);
-		Q		: out std_logic_vector((W-1) downto 0);
+		Q		: out std_logic_vector((W-1) downto 0) := (others => '0');
 		LOAD : in std_logic
 	);
 	
